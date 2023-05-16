@@ -1,0 +1,7 @@
+nameSuffix: "-echo-headers"
+commonLabels:
+  app: whereami-echo-headers
+bases:
+- ../k8s
+patches:
+- cm-flag.yaml
